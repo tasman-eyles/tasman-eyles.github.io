@@ -65,7 +65,7 @@ body {
   margin: 0;
   padding: 0.01px;
   font-size: 40px;
-  font-family: ;
+  font-family:RussoOne, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 body {
   background-image: url(/images/dirt.jpeg);
@@ -114,8 +114,6 @@ body {
   width: 295px;
   height: 225px;
 }
-
-
 
 .instagram {
   width: 30px;
