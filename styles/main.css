@@ -8,13 +8,12 @@ body {
   padding: 0;
 }
 
-
-
 .flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .about-box {
   background-color: grey;
@@ -24,7 +23,7 @@ body {
   padding: 20px;
   border: 2px solid white;
   border-radius: 10px;
-  height: 45vh;
+  height: 400px;
   /*margin-left: 450px;
   margin-right: 100px;*/
   margin-top: 60px;
@@ -42,7 +41,7 @@ body {
   padding: 20px;
   border: 2px solid white;
   border-radius: 10px;
-  height: 45vh;
+  height: 250pxvh;
   margin-top: 25px;
  /*margin-left: 450px;
   margin-right: 100px;*/
@@ -63,7 +62,7 @@ body {
 .title {
   text-align: center;
   margin: 0;
-  padding: 0.01px;
+  padding: 10px;
   font-size: 40px;
   font-family:RussoOne, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
@@ -121,6 +120,15 @@ body {
   margin-left: 10px;
 }
 
+@media screen and (min-width: 1200px) {
+  .title {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 50px;
+    font-family:RussoOne, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  }
+}
 @media screen and (max-width: 768px) {
   .about-box {
     margin-left: auto;
@@ -131,4 +139,17 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 320px) {
+body {
+  font-size: 9px;
+  .title {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-family:RussoOne, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  }
+}
 }
