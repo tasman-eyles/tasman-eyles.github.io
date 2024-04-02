@@ -45,7 +45,7 @@ body {
   margin-top: 25px;
  /*margin-left: 450px;
   margin-right: 100px;*/
-  margin-bottom: 60px;
+  margin-bottom: 150px;
   text-align: center;
 }
 
@@ -90,8 +90,15 @@ body {
   margin-left: 0px;
   margin-bottom: 0px;
   background-color: rgb(43, 43, 43);
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.indexbutton-size {
+  font-size: 25px;
 }
 
 .rich {
@@ -135,6 +142,18 @@ body {
 
 .link-padding {
   padding: 30px;
+}
+/*.section {
+  height: 2000px; 
+}*/
+
+.backtoindex {
+ 
+  padding-bottom: 100px;
+}
+
+#gray {
+  background-color: gray;
 }
 
 @media screen and (min-width: 1200px) {
