@@ -156,6 +156,10 @@ body {
   background-color: gray;
 }
 
+.centering {
+  all
+}
+
 @media screen and (min-width: 1200px) {
   .title {
     text-align: center;
