@@ -80,11 +80,7 @@ body {
   font-family: RussoOne, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.green-text-black-border {
-  color:rgb(0, 174, 0);
-  text-shadow:
-  -1px -1px 0 #000, 1px -1px 0 #000,  -1px 1px 0 #000, 1px 1px 0 #000;
-}
+
 .footer {
   color: white;
   margin-left: 0px;
@@ -131,6 +127,19 @@ body {
   text-shadow:
   -1px -1px 0 #ffffff, 1px -1px 0 #fff,  -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
+
+.black-border {
+  color:rgb(0, 0, 0);
+  text-shadow:
+  -3px -3px 0 #000, 3px -3px 0 #000,  -3px 3px 0 #000, 3px 3px 0 #000;
+}
+
+.green-text-black-border {
+  color:rgb(0, 174, 0);
+  text-shadow:
+  -1px -1px 0 #000, 1px -1px 0 #000,  -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .gray-back {
   background-color: gray;
   background-size: cover;
@@ -150,10 +159,6 @@ body {
 .backtoindex {
  
   padding-bottom: 100px;
-}
-
-#gray {
-  background-color: gray;
 }
 
 .centering {
